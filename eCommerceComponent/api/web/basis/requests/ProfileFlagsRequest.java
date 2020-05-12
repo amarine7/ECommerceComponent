@@ -1,4 +1,4 @@
-package com.retapps.smartbip.api.web.basis.requests;
+package api.web.basis.requests;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
