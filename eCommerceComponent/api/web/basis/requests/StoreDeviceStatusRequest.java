@@ -1,6 +1,6 @@
-package com.retapps.smartbip.api.web.basis.requests;
+package api.web.basis.requests;
 
-import com.retapps.smartbip.basis.models.StoreDevice;
+import basis.models.StoreDevice;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
 import org.hibernate.validator.constraints.NotBlank;
