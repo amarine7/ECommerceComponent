@@ -1,6 +1,6 @@
-package com.retapps.smartbip.api.web.basis.requests;
+package api.web.basis.requests;
 
-import com.retapps.smartbip.basis.models.MailBox;
+import basis.models.MailBox;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
 
