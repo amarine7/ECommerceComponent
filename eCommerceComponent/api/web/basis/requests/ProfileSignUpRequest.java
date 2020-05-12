@@ -1,4 +1,4 @@
-package com.retapps.smartbip.api.web.basis.requests;
+package api.web.basis.requests;
 
 import com.retapps.smartbip.api.web.basis.dtos.ProfileSignUpDto;
 import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
