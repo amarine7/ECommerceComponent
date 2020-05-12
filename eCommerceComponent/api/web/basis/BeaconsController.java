@@ -1,12 +1,12 @@
 package com.retapps.smartbip.api.web.basis;
 
-import com.retapps.smartbip.api.web.basis.dtos.ShopBeaconDto;
-import com.retapps.smartbip.authentication.common.models.ProfileUser;
-import com.retapps.smartbip.authentication.common.security.PrincipalResolver;
-import com.retapps.smartbip.basis.services.BeaconsService;
-import com.retapps.smartbip.common.audit.AuditLogger;
-import com.retapps.smartbip.common.models.responses.SmartBipResponse;
-import com.retapps.smartbip.common.services.View;
+import api.web.basis.dtos.ShopBeaconDto;
+import common.models.ProfileUser;
+import common.security.PrincipalResolver;
+import basis.services.BeaconsService;
+import common.audit.AuditLogger;
+import common.models.responses.SmartBipResponse;
+import common.services.View;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
