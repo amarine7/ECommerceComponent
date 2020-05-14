@@ -1,13 +1,12 @@
 package com.retapps.smartbip.api.web.cms;
 
-import com.retapps.smartbip.api.models.PagedSmartBipResponse;
-import com.retapps.smartbip.authentication.common.security.PrincipalResolver;
-import com.retapps.smartbip.cms.common.engines.CmsBannersImageDecorator;
-import com.retapps.smartbip.cms.common.models.Banner;
-import com.retapps.smartbip.cms.common.services.BannersService;
-import com.retapps.smartbip.common.audit.AuditLogger;
-import com.retapps.smartbip.common.config.Properties;
-import com.retapps.smartbip.common.services.View;
+import authentication.common.security.PrincipalResolver;
+import cms.common.engines.CmsBannersImageDecorator;
+import cms.common.models.Banner;
+import cms.common.services.BannersService;
+import common.audit.AuditLogger;
+import common.config.Properties;
+import common.services.View;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.PageRequest;
@@ -22,7 +21,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.security.Principal;
 import java.util.List;
 
-import static com.retapps.smartbip.common.audit.services.AuditService.ModuleCms.BANNERS;
+import static common.audit.services.AuditService.ModuleCms.BANNERS;
 import static org.apache.commons.lang3.StringUtils.trimToNull;
 
 @RestController
